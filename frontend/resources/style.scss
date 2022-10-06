@@ -1,0 +1,32 @@
+/*
+Theme Name: Theme Name
+Theme URI: https://example.com
+Description: Theme Description
+Author: Author Name
+Author URI: https://authordomain.com/
+Version: 1.0
+Text Domain: example
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,700");
+
+@import "./scss/variables";
+@import "./scss/utilities";
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+/* Add additional styles code here */
+
+/* Example with custom color */
+body{
+    background-color: map_get($theme-colors, 'custom-color');
+}
+
+/* Bootstrap Extra */
+@include media-breakpoint-up(xs) {}
+
+@include media-breakpoint-up(sm) {}
+
+@include media-breakpoint-up(md) {}
+
+@include media-breakpoint-up(lg) {}

@@ -1,0 +1,32 @@
+{
+  "name": "starter-laravel-mix",
+  "version": "1.0.0",
+  "description": "Starter template with Laravel Mix",
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "mix watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:besnikhysaj/Starter-Laravel-Mix.git"
+  },
+  "keywords": [
+    "parcel, bootstrap"
+  ],
+  "author": "Besnik Hysaj",
+  "license": "ISC",
+  "homepage": "https://github.com/besnikhysaj/Starter-Laravel-Mix#readme",
+  "devDependencies": {
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^12.6.0",
+    "webpack-livereload-plugin": "^3.0.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.1.3"
+  }
+}
